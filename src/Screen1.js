@@ -22,8 +22,7 @@ const Screen1 = () => {
 
   return (
     <View>
-      <Text>Brach Code</Text>
-      <Text>Its 2nd Function Branch New (Brach hn 2nd waliiiiiii) </Text>
+      <Text>Solve Ho ja bhai</Text>
       <Text>{OwnName}</Text>
       <TextInput
         style={{borderWidth: 2, borderColor: 'black', marginBottom: 10}}
