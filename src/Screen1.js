@@ -22,7 +22,8 @@ const Screen1 = () => {
 
   return (
     <View>
-      <Text>Its 1st Function Branch </Text>
+      <Text>Brach Code</Text>
+      <Text>Its 2nd Function Branch </Text>
       <Text>{OwnName}</Text>
       <TextInput
         style={{borderWidth: 2, borderColor: 'black', marginBottom: 10}}
