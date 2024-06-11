@@ -28,13 +28,13 @@ const Screen1 = () => {
         value={NameValue}
         onChangeText={setNameValue}
       />
-      <Button title="Change Name" onPress={handleChangeName} />
+      <Button title="Uper Name Change" onPress={handleChangeName} />
       <TextInput
         style={{borderWidth: 2, borderColor: 'black', marginBottom: 10}}
         value={inputValue}
         onChangeText={setInputValue}
       />
-      <Button title="Add" onPress={handleAdd} />
+      <Button title="Add In List Below" onPress={handleAdd} />
       {FirstArray.map((item, ind) => (
         <Text key={ind}>{item}</Text>
       ))}
